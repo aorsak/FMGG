@@ -27,16 +27,6 @@ div {
 }
 
 /*------- SMALL GLOBAL SELECTORS ------- */
-body p {
-  padding: 0%;
-  margin: 1em 5% 1em 5%
-}
-
-body h3 {
-  padding: 0%;
-  margin: 1em 2% 1em 2%
-}
-
 a {
   color: rgb(171, 203, 255);
 }
@@ -105,7 +95,7 @@ h1 {
 }
 
 h2{
-  margin: 0px 0px .5em 0px;
+  margin: 0px 0px 0em 0px;
   padding: 0%;
 }
 
@@ -160,7 +150,7 @@ text-decoration: none;
   height: 0px;
   border: 0px;
   border-top: 3px solid #454545;
-  margin: 0px;
+  margin: .75em 0px .75em 0px;
   padding: 0px;
 }
 
@@ -174,6 +164,15 @@ text-decoration: none;
   text-align: center;
   width: auto;
   padding: 1em 0% 0% 0%;
+}
+
+.style1 h3 {
+  margin: 0px 5% 1em 1em;
+  padding: 0px;
+}
+
+.style1 p {
+  margin: 0em 5% 1em 5%
 }
 
 .style2{
