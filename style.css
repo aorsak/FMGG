@@ -91,11 +91,16 @@ body h3 {
   margin: 1em 3% 1em 3%
 }
 
-/* ------- HEADER ------- */
+/* ------- HEADERS ------- */
 h1{
   text-align: center;
   line-height: 1.1em;
   margin: 2%;
+  padding: 0%;
+}
+
+h2{
+  margin: 0px 0px .5em 0px;
   padding: 0%;
 }
 
