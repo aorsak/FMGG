@@ -94,11 +94,6 @@ h1 {
   padding: .5em;
 }
 
-h2{
-  margin: 0px 0px 0em 0px;
-  padding: 0%;
-}
-
 /* ------- NAV ------- */
 .nav{
   background-color: #1C1C1C;
@@ -166,8 +161,18 @@ text-decoration: none;
   padding: 1em 0% 0% 0%;
 }
 
+.style1 h2 {
+  margin: -5px 5% -3px 5%;
+  padding: 0%;
+}
+
 .style1 h3 {
-  margin: 0px 5% 0px 5%;
+  margin: 0px 5% 3px 5%;
+  padding: 0px;
+}
+
+#title {
+  margin: -5px 5% -3px 5%;
   padding: 0px;
 }
 
