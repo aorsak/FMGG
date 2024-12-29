@@ -194,3 +194,8 @@ text-decoration: none;
 #strong1 {
   font-size: large;
 }
+
+#img1 {
+  border-radius: 15px;
+  margin: 0px 0px 3% 0px;
+}
