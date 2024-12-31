@@ -159,16 +159,20 @@ text-decoration: none;
   text-align: center;
   width: auto;
   padding: 1em 0% 0% 0%;
-}
 
-.style1 h2 {
-  margin: -5px 5% -3px 5%;
-  padding: 0%;
-}
+  p {
+    margin: 0em 5% 1em 5%
+  }
 
-.style1 h3 {
-  margin: 0px 5% 3px 5%;
-  padding: 0px;
+  h2 {
+    margin: -5px 5% -3px 5%;
+    padding: 0%;
+  }
+
+  h3 {
+    margin: 0px 5% 3px 5%;
+    padding: 0px;
+  }
 }
 
 #title {
@@ -176,11 +180,8 @@ text-decoration: none;
   padding: 0px;
 }
 
-.style1 p {
-  margin: 0em 5% 1em 5%
-}
-
 .style2{
+  /* Footer Styling*/
   display: flex;
   flex-direction: column;
   background-color: #1C1C1C;
@@ -190,7 +191,47 @@ text-decoration: none;
   width: auto;
 }
 
+.style3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+
+  figure {
+    margin: 3%;
+    padding: 0%;
+    max-width: 44%;
+    img {
+      width: 100%;
+      margin: 0%;
+      padding: 0%;
+      border-radius: 15px;
+    }
+  }
+}
+
 /*------- MISC STYLES? -------*/
+.button01{
+  font-family: Nunito;
+  font-size: 1.3em;
+  color: #ffffff;
+  background-color: #0F0F0F;
+  border-radius: 15px;
+  margin: auto;
+  padding: auto;
+}
+
+.button02{
+  font-family: Nunito;
+  font-size: 1.3em;
+  color: #ffffff;
+  background-color: #0F0F0F;
+  border-radius: 15px;
+  margin: auto;
+  padding: 0% 10%;
+}
+
 #strong1 {
   font-size: large;
 }
