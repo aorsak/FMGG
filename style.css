@@ -15,6 +15,42 @@ body{
   line-height: 1.3em;
 }
 
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -121,6 +157,40 @@ color: #ffffff;
 text-decoration: none;
 }
 
+/* ------- NAV 2 ------- */
+.nav2{
+  background-color: #1C1C1C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  border-radius: 20px;
+  margin: 0em 0em 0em 0em;
+  padding: 0px
+}
+
+.nav2 li {
+  display: grid;
+  place-content: center;
+  
+  font-size: 1em;
+  background-color: #0F0F0F;
+  border-radius: .25em;
+  box-sizing: border-box;
+  margin: 3%;
+  /*padding: 1em 0em 0em 0em;*/
+  /*line-height: 3em;*/
+  height: 6em;
+  width: 6em;
+  color: #ffffff;
+}
+
+.nav2 a{
+color: #ffffff;
+text-decoration: none;
+}
+
 /* ------- DIVIDER STYLES ------- */
 /* === SPACER === */
 .ds01{  
@@ -149,6 +219,48 @@ text-decoration: none;
   margin: .75em 0px .75em 0px;
   padding: 0px;
 }
+/* === DIV HEADER DIVIDER 2, 3, & 4 === */
+.ds04{  
+  display: block;
+  height: 0px;
+  border: 0px;
+  border-top: 2px solid #454545;
+  margin: .5em 1em .5em 1em;
+  padding: 0px;
+}
+
+.ds05{  
+  display: block;
+  height: 0px;
+  border: 0px;
+  border-top: 5px dotted #454545;
+  margin: .5em 1em .5em 1em;
+  padding: 0px;
+}
+
+.ds06{  
+  display: block;
+  height: 0px;
+  border: 0px;
+  border-top: 3px solid #454545;
+  margin: .5em 1em .5em 1em;
+  padding: 0px;
+}
+
+/* ------- GRID STYLE ------- */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: .25em;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: #434343;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
 
 /* ------- TEXT BLOCK STYLES ------- */
 .style1{
@@ -159,10 +271,10 @@ text-decoration: none;
   border-radius: 15px;
   text-align: center;
   width: auto;
-  padding: 1em 0% 0% 0%;
+  padding: 1em 0% 1em 0%;
 
   p {
-    margin: 0em 5% 1em 5%
+    margin: 0em 5% 0em 5%
   }
 
   h2 {
@@ -212,6 +324,39 @@ text-decoration: none;
   }
 }
 
+.p1{
+  margin: 0px;
+  padding: .25em 0px .25em 0px;
+  text-align:left;
+}
+
+.p2{
+
+}
+
+blockquote{
+  border-radius: 0px .25em .25em 0px;
+  background: #242424;
+  text-align: justify;
+  padding: 0px;
+  border-left: 3px solid #454545;
+
+}
+
+blockquote {font-style: italic;}
+
+blockquote > p:before {
+  content: '“';
+}
+blockquote > p:after {
+  content: '”';
+}
+
+blockquote p{
+  margin: 0;
+  padding: .5em;
+}
+
 /*------- MISC STYLES? -------*/
 .button01{
   font-family: Nunito;
@@ -240,4 +385,15 @@ text-decoration: none;
 #img1 {
   border-radius: 15px;
   margin: 0px 0px 3% 0px;
+}
+
+ol {
+font-size: 1.2rem;
+text-align: left;
+}
+
+ol li {
+  font-size: 1rem;
+  padding: .25em;
+  text-align: left;
 }
