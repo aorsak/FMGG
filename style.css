@@ -321,7 +321,7 @@ blockquote > p:after {
 
 blockquote p{
   margin: 0;
-  padding: .5em;
+  padding: .5em 0em .5em 0em;
 }
 
 details {
