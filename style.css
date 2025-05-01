@@ -406,6 +406,11 @@ details p {
   margin: 0px 0px 3% 0px;
 }
 
+#img2 {
+  margin: -10px 0px;
+  width: 2em;
+}
+
 ol {
 font-size: 1.2rem;
 text-align: left;
